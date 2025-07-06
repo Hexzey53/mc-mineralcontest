@@ -1,0 +1,17 @@
+name: MineralContest
+author: Hexzey
+version: 0.1
+api-version: 1.20
+main: fr.hexzey.mineralcontest.Main
+commands :
+  mctp:
+    description: Se téléporter dans un monde à des coordonnées précises.
+    permission: mc.mctp
+  map:
+    description: Générer une nouvelle carte.
+    permission: mc.map
+  game:
+    description: Gestion de la partie.
+    permission: mc.game
+  arene:
+    description: Téléporter son équipe dans l'arène.
